@@ -6,6 +6,16 @@ pipeline {
                         steps { 
                            echo "Hello Sambhaji"
 }
+
+                     }
+                     
+                     stage ('test')
+                     
+                    {
+                              steps {
+                              echo "Welcome to Jenkins"
+                              }
+                     }
 }
-}
+         
 }
